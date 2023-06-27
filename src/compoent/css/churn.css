@@ -1,0 +1,66 @@
+.box122{
+    height:700px;
+    width:650px;
+    background-color: rgba(168, 190, 223, 0.089);
+    margin-left:200px ;
+    margin-top: 80px;
+    display: transparent;
+    border-radius: 20px;
+  }
+
+  
+
+  .rectangle43{
+    
+    
+    background-color:rgba(227, 228, 236, 0.007);;
+    margin-left:10px ;
+    margin-top: 120px;
+    display: transparent;
+    
+    
+  }
+
+  .fn1{
+      margin-left: 150px;
+      color:purple;
+      font-family: arial;
+  }
+
+  /* screen size under 1200px*/
+
+  @media (max-width: 1200px){
+  
+ .box122{
+  margin-left: 18px;
+  margin-top: 90px;
+  }
+  .fn1{
+      margin-left: 100px;
+  }
+
+  .loop44{
+    height:95px;
+    width:230px;
+  margin-left: 240px;
+  margin-top: -600px;
+   
+    
+  }
+
+    .rectangle43{
+        overflow-x: auto;
+        margin-left: 30px;
+        margin-top: 590px;
+        
+       }
+     
+      .table-striped  {
+       width: 800px;
+      } 
+
+      
+
+    
+    
+}
