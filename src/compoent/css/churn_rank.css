@@ -1,13 +1,24 @@
 
 .box1002{
-  height:390px;
-  width:450px;
+  height:220px;
+  width:850px;
   background-color: rgba(168, 190, 223, 0.089);
-  margin-left:200px ;
-  margin-top: 80px;
+  margin-left:400px ;
+  margin-top: -550px;
   display: transparent;
   border-radius: 20px;
 }
+
+.box008{
+  height:675px;
+  width:250px;
+  background-color: rgba(1, 7, 17, 0.875);
+  margin-left:0px ;
+margin-top: -110px;
+  display: transparent;
+  border-radius: 1px;
+}
+ 
 
 
 

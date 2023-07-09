@@ -1,11 +1,11 @@
-.box112{
-    height:550px;
-    width:450px;
-    background-color: rgba(168, 190, 223, 0.089);
-    margin-left:200px ;
-    margin-top: 80px;
+.box004{
+    height:642px;
+    width:250px;
+    background-color: rgba(1, 7, 17, 0.875);
+    margin-left:0px ;
+    margin-top: -89px;
     display: transparent;
-    border-radius: 20px;
+    border-radius: 1px;
   }
 
   .loop{

@@ -27,7 +27,7 @@ const Navbar = () => {
 
       <div className="rectangle">
         <br/>
-      <h3 className='logo'style={{marginTop:"-10px"}}><Link to='/' className='home'style={{textDecoration:"none",color:"black"}}>
+      <h3 className='logo'style={{marginTop:"-10px"}}><Link to='/' className='home'style={{textDecoration:"none",color:"white"}}>
             
           Island courier service platform</Link></h3>
           <br/>

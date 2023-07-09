@@ -1,11 +1,21 @@
 .box122{
-    height:700px;
-    width:650px;
-    background-color: rgba(168, 190, 223, 0.089);
-    margin-left:200px ;
-    margin-top: 80px;
+    height:500px;
+    width:850px;
+    background-color:rgba(213, 220, 173, 0.327);
+    margin-left:500px ;
+    margin-top: -560px;
     display: transparent;
     border-radius: 20px;
+  }
+
+  .box006{
+    height:690px;
+    width:250px;
+    background-color: rgba(1, 7, 17, 0.875);
+    margin-left:0px ;
+  margin-top: -110px;
+    display: transparent;
+    border-radius: 1px;
   }
 
   

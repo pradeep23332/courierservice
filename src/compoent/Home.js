@@ -20,11 +20,12 @@ const Home = () => {
   
   return (
     <>
-	
+	   
     <meta name="viewport" content="width=device-width" initial-scale="1.00" maximum-scale="1.0" />
+   
    <div>
-
-   <div className="box004">
+       <h4>this is not home page just a page only for integration </h4>
+   <div className="box14">
            <br/>
            
            <div className="trangle00">
@@ -67,7 +68,9 @@ const Home = () => {
 
 
 						
-</div>
+  </div>
+
+
 
 
 

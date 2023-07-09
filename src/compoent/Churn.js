@@ -7,12 +7,51 @@ const Churn = () => {
     <div className="all2">
   <br/>
        <div className="fn1">
-           <h2>churn prediction</h2>
+           <h4 style={{color:"black",marginLeft:"600px",marginTop:"-60px"}}>CHURN PREDICTION </h4>
        </div>
 
 
 
   </div>
+
+  <div className="box006">
+           <br/>
+           
+          
+              <h4 style={{color:"white", marginLeft:"50px",marginTop:"40px"}}>Predictions</h4>
+              
+              <button type="button" style={{marginLeft:"50px", height:"40px",marginTop:"10px"}}class="btn btn-primary"><a href="http://localhost:3000/deliverysuccess" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Delivery success</a></button>
+              
+        
+           <br/>
+
+         
+                 
+                 <button type="button" style={{marginLeft:"50px", height:"40px",marginTop:"10px"}}class="btn btn-success"><a href="http://localhost:3000/churn" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Customer churn</a></button>
+          
+           <br/><br/>
+
+             <h4 style={{color:"white", marginLeft:"50px"}}>Ranking </h4>
+          
+                 
+                 <button type="button" style={{marginLeft:"50px", height:"40px",width:"140px",marginTop:"10px"}}class="btn btn-warning"><a href="http://localhost:3000/deliveryrank" style={{textDecoration:"none",color:"white",fontSize:"14px",}}> Delivery_Rank</a></button>
+          
+           <br/>
+
+          
+                  <button type="button" style={{marginLeft:"50px", height:"40px",width:"140px",marginTop:"10px"}}class="btn btn-danger"><a href="http://localhost:3000/churnrank" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Churn__Rank </a></button>
+                  
+          
+           <br/>
+           
+
+
+        </div>
+<br/>
+
+
+
+
 
   <div className="box122">
          <form  style={{marginLeft:"30px",}}>
@@ -33,7 +72,7 @@ const Churn = () => {
            <br/>
            <lable style={{marginLeft:"90px",color:"red"}}>Previous courier details</lable><br/><br/><br/>
 
-           <div className="drop2"  style={{marginTop:"-15px", marginLeft:"10px"}}>
+           <div className="drop2"  style={{marginTop:"-35px", marginLeft:"10px"}}>
              <lable>Item Type</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <select style={{width:"160px",borderRadius:"6px",height:"35px",borderColor:"lightblue"}}>
               <option value="#0">Food</option>
@@ -49,7 +88,7 @@ const Churn = () => {
            <br/><br/>
           
 
-          <div class="form-group"style={{marginLeft:"10px",marginTop:"-20px"}}>
+          <div class="form-group"style={{marginLeft:"420px",marginTop:"-108px"}}>
             <label>no of pices deliverd up to now
             <input type="text" class="form-control" style={{width:"350px"}}name="text" />
             </label>
@@ -57,18 +96,18 @@ const Churn = () => {
           <br/>
 
           <div class="form-group" style={{marginLeft:"10px"}}>
-      <label>Last order Item status &nbsp;&nbsp; &nbsp;&nbsp;
+      <label> Last order Item status &nbsp;&nbsp; &nbsp;&nbsp;
         <input type="radio" value="Damage" name="status" /> Damage
         &nbsp;&nbsp;
-        <input type="radio" value="Not Damage" name="status" /> Not Damage
+        <input type="radio" value="Not Damage" name="status" /> Not 
         </label>
        
       </div>
       <br/>
 
       
-      <div class="form-group" style={{marginLeft:"10px"}}>
-      <label>On time Delivery&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="form-group" style={{marginLeft:"420px",marginTop:"-48px"}}>
+      <label>On time Delivery&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="radio" value="Yes" name="status" /> Yes
         &nbsp;&nbsp;
         <input type="radio" value="No" name="status" /> No
@@ -77,7 +116,7 @@ const Churn = () => {
       </div>
       <br/>
 
-      <div class="form-group" style={{marginLeft:"10px"}}>
+      <div class="form-group" style={{marginLeft:"10px",marginTop:"10px"}}>
       <label>Last Delivery Status&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="radio" value="Yes" name="status" /> Success
         &nbsp;&nbsp;
@@ -87,8 +126,8 @@ const Churn = () => {
       </div>
       <br/><br/>
 
-      <div className="drop2"  style={{marginTop:"-15px", marginLeft:"10px"}}>
-             <lable>Final Feedback</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div className="drop2"  style={{marginTop:"-75px", marginLeft:"420px"}}>
+             <lable>Final Feedback</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <select style={{width:"160px",borderRadius:"6px",height:"35px",borderColor:"lightblue"}}>
               <option value="#0">Good</option>
               <option value="#01">Average</option>
@@ -105,7 +144,9 @@ const Churn = () => {
 
         
 
-         <button type="button" style={{marginLeft:"150px",marginTop:"-10px"}} class="btn btn-primary">submit</button><br/>
+         <button type="button" style={{marginLeft:"50px",marginTop:"-30px"}} class="btn btn-primary">CHECK PREDICTION</button><br/>
+
+         <hr/>
 
            <div className="form-group_1"style={{marginLeft:"10px",marginTop:"10px"}}>
             <label>Prediction 

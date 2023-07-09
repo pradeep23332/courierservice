@@ -29,7 +29,7 @@ li {
 .rectangle{
   height: 80px;
   width:100%;
-  background-color: rgb(148, 180, 218);
+  background-color: rgb(12, 81, 150);
   position:relative;
   display:fill;
   
@@ -40,8 +40,8 @@ li {
 .niht{
   width: 12%;
   height: 99px;
-
-  background-image: url(../Images/logo.png);
+/*
+  background-image: url(../Images/logo.png);*/
 
   background-size: cover;
   margin-left:1200px ;
@@ -272,7 +272,8 @@ ul li:hover ul.dropdown{
   .niht{
   width: 160px;
   height: 99px;
-  background-image: url(../Images/logo.png);
+  /*
+  background-image: url(../Images/logo.png);*/
   background-size: cover;
   margin-left:800px ;
   margin-top: -65px; 
@@ -302,7 +303,8 @@ ul li:hover ul.dropdown{
 .niht{
   width: 160px;
   height: 99px;
-  background-image: url(../Images/logo.png);
+  /*
+  background-image: url(../Images/logo.png);*/
   background-size: cover;
   margin-left:600px ;
   margin-top: -65px; 
@@ -318,7 +320,8 @@ ul li:hover ul.dropdown{
   .niht{
     width: 160px;
     height: 99px;
-    background-image: url(../Images/logo.png);
+    /*
+    background-image: url(../Images/logo.png);*/
     background-size: cover;
     margin-left:480px ;
     margin-top: -65px; 
@@ -332,7 +335,8 @@ ul li:hover ul.dropdown{
   .niht{
     width: 160px;
     height: 99px;
-    background-image: url(../Images/logo.png);
+    /*
+    background-image: url(../Images/logo.png);*/
     background-size: cover;
     margin-left:400px ;
     margin-top: -65px; 
@@ -346,7 +350,8 @@ ul li:hover ul.dropdown{
   .niht{
     width: 160px;
     height: 99px;
-    background-image: url(../Images/logo.png);
+    /*
+    background-image: url(../Images/logo.png);*/
     background-size: cover;
     margin-left:300px ;
     margin-top: -65px; 
@@ -355,27 +360,9 @@ ul li:hover ul.dropdown{
 
 }
 
-@media(max-width: 460px) {
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    width: 600px;
-    background-color: rgb(204, 225, 232);
-}
-.rectangle{
-  height: 80px;
-  width:600px;
-  background-color: rgba(31, 84, 164);
-  position:relative;
-  display:fill;
-  
-    
-  
-}
 
 
-}
+
+
 
 

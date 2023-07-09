@@ -15,45 +15,38 @@ const Performance = () => {
       
     
 
-     <h4 style={{marginLeft:"50px"}}>Performance tracking system   </h4>
-
-     <div>
+     <h4 style={{marginLeft:"650px",marginTop:"-30px"}}>PERFORMANCE TRACKING PORTAL   </h4>
+      
+     <div>        
 
    <div className="box004">
            <br/>
            
-           <div className="trangle00">
-              <div className="s11">
-              </div>
+          
+              <h4 style={{color:"white", marginLeft:"50px",marginTop:"40px"}}>Predictions</h4>
               
-              <button type="button" style={{marginLeft:"40px", height:"40px",marginTop:"-110px"}}class="btn btn-primary"><a href="http://localhost:3000/deliverysuccess" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Delivery success</a></button>
+              <button type="button" style={{marginLeft:"50px", height:"40px",marginTop:"10px"}}class="btn btn-primary"><a href="http://localhost:3000/deliverysuccess" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Delivery success</a></button>
               
-           </div>
+        
            <br/>
 
-           <div className="trangle01">
-                <div className="s12">
-                 </div>
+         
                  
-                 <button type="button" style={{marginLeft:"40px", height:"40px",marginTop:"-110px"}}class="btn btn-primary"><a href="http://localhost:3000/churn" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Customer churn</a></button>
-           </div>
-           <br/>
+                 <button type="button" style={{marginLeft:"50px", height:"40px",marginTop:"10px"}}class="btn btn-success"><a href="http://localhost:3000/churn" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Customer churn</a></button>
+          
+           <br/><br/>
 
-
-           <div className="trangle10">
-                  <div className="s13">
-                 </div>
+             <h4 style={{color:"white", marginLeft:"50px"}}>Ranking </h4>
+          
                  
-                 <button type="button" style={{marginLeft:"40px", height:"40px",marginTop:"-110px"}}class="btn btn-primary"><a href="http://localhost:3000/deliveryrank" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> delivery rank</a></button>
-           </div>
+                 <button type="button" style={{marginLeft:"50px", height:"40px",width:"140px",marginTop:"10px"}}class="btn btn-warning"><a href="http://localhost:3000/deliveryrank" style={{textDecoration:"none",color:"white",fontSize:"14px",}}> Delivery_Rank</a></button>
+          
            <br/>
 
-           <div className="trangle11">
-                  <div className="s14">
-                  </div>
-                  <button type="button" style={{marginLeft:"40px", height:"40px",marginTop:"-110px"}}class="btn btn-primary"><a href="http://localhost:3000/churnrank" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> churn rank </a></button>
+          
+                  <button type="button" style={{marginLeft:"50px", height:"40px",width:"140px",marginTop:"10px"}}class="btn btn-danger"><a href="http://localhost:3000/churnrank" style={{textDecoration:"none",color:"white",fontSize:"14px"}}> Churn__Rank </a></button>
                   
-           </div>
+          
            <br/>
            
 
